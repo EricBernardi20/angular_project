@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+
+.toolbar {
+    background-color: #2d3436;
+    color: white;
+    .bar {
+        display: flex;
+        gap: 16px;
+        .Text {
+            margin: 8px;
+            &:hover {
+                color: rgb(120, 120, 226);
+                transition: color 0.2s ease-in-out;
+            }
+            transition: color 0.2s ease-in-out;
+        }
+    }
+    .Contact {
+        margin: 8px;
+        &:hover {
+            color: rgb(120, 120, 226);
+            transition: color 0.2s ease-in-out;
+        }
+        transition: color 0.2s ease-in-out;
+    }
+}
