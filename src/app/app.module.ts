@@ -12,6 +12,7 @@ import { MatCardModule } from '@angular/material/card';
 import { BodyComponent } from './body/body.component'
 import { ItemMenuComponent } from './item-menu/item-menu.component';
 import { CardsComponent } from './cards/cards.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { CardsComponent } from './cards/cards.component';
     BodyComponent,
     ItemMenuComponent,
     CardsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
