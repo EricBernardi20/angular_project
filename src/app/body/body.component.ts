@@ -16,12 +16,12 @@ export class BodyComponent {
     },
     {
       title: 'Team Play ',
-      description: 'Card um sobre isso',
+      description: 'We believe in working together',
       image: '../../assets/imagens/startup2.jpg'
     },
     {
       title: 'Team Play ',
-      description: 'Card um sobre isso',
+      description: 'We believe in working together',
       image: '../../assets/imagens/startup3.jpg'
     },
   ]
