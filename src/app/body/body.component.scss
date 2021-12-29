@@ -1,9 +1,19 @@
-.background {
+.container {
     margin-top: 64px;
     @media (max-width: 600px) {
         margin-top: 56px;
     }
     img {
         width: 100%;
+    }
+    .background-container {
+        position: relative;
+        text-align: center;
+        .text-center {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
