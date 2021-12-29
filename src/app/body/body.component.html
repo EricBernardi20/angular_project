@@ -5,4 +5,12 @@
             <h3>Making the World a better place </h3>
         </div>
     </div>
+    <div class="cards">
+        <app-cards 
+            *ngFor="let card of cards" 
+            [image]="card.image" 
+            [title]="card.title" 
+            [description]="card.description"
+        ></app-cards>
+    </div>
 </div>
