@@ -12,6 +12,8 @@ a {
 .toolbar {
     background-color: #2d3436;
     color: white;
+    position: fixed;
+    top: 0px;
     .bar {
         display: flex;
         gap: 16px;

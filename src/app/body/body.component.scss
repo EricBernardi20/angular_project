@@ -1,0 +1,9 @@
+.background {
+    margin-top: 64px;
+    @media (max-width: 600px) {
+        margin-top: 56px;
+    }
+    img {
+        width: 100%;
+    }
+}
