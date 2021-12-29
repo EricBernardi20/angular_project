@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+$header-bg-color: rgb(45, 52, 54);
+$card-bg-color: rgb(68, 68, 68);
+$button-bg-color: gray;
+$button-bg-color-hover: rgb(104, 109, 224);
+$header-font-color: white;
+$header-font-color-hover: rgb(104, 109, 224);
+$bg-color-footer: rgb(48, 51, 107);
+
+body {
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+.cabeca {
+    display: flex;
+    background-color: $header-bg-color;
+    width: 100%;
+    height: 65px;
+    font-size: 1.7em;
+    position: relative;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    > .sobre {
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin: 20px;
+
+        &:hover {
+            color: $header-font-color-hover;
+            transition: color 0.2s ease-in;
+        }
+    }
+
+    > .produtos {
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin: 20px;
+
+        &:hover {
+            color: $header-font-color-hover;
+            transition: color 0.2s ease-in;
+        }
+    }
+
+    > .time {
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin: 20px;
+        &:hover {
+            color: $header-font-color-hover;
+            transition: color 0.2s ease-in;
+        }
+    }
+    > .contato {
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 20px;
+
+        &:hover {
+            color: $header-font-color-hover;
+            transition: color 0.2s ease-in;
+        }
+    }
+}
+
+.background {
+    background-image: url(cover.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    display: table;
+
+    > .text-img {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        
+    }
+}
+
+.cards {
+    position: relative;
+    background-color: $header-bg-color;
+    display: flex;
+    justify-content: space-around;
+
+    > .card {
+        margin: 25px;
+        border-radius: 4px;
+        display: block;
+        flex-direction: column;
+        justify-self: center;
+        background-color: $card-bg-color;
+
+        &:hover {
+            box-shadow: 5px 5px rgba(0, 0, 0, 0.493);
+            transition: box-shadow 0.2s ease-in-out;
+        }
+
+        > .startup {
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        > .box {
+            padding: 15px;
+            color: $header-font-color;
+
+            > .titulo {
+                font-size: 1.5rem;
+            }
+
+            > .descricao {
+                font-size: 1rem;
+                font-family: 'Roboto', sans-serif;
+            }
+
+            > .button {
+                padding: 15px;
+                width: 100%;
+                background-color: $button-bg-color;
+                font-size: 1rem;
+                border: none;
+                color: $header-font-color;
+                
+
+                &:hover {
+                    background-color: $button-bg-color-hover;
+                    transition: background-color 0.2s ease-in;
+                    box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+                    transition: box-shadow 0.2s ease-in-out;
+                }
+            }
+        }
+    }
+}
+
+.margem {
+    position: relative;
+    background-color: $bg-color-footer;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}

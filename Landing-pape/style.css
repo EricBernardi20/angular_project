@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+  color: white;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0px;
+}
+
+.cabeca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #2d3436;
+  width: 100%;
+  height: 65px;
+  font-size: 1.7em;
+  position: relative;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cabeca a {
+  color: white;
+  text-decoration: none;
+}
+
+.cabeca > .sobre {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: 20px;
+}
+
+.cabeca > .sobre:hover {
+  color: #686de0;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.cabeca > .produtos {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: 20px;
+}
+
+.cabeca > .produtos:hover {
+  color: #686de0;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.cabeca > .time {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: 20px;
+}
+
+.cabeca > .time:hover {
+  color: #686de0;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.cabeca > .contato {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+.cabeca > .contato:hover {
+  color: #686de0;
+  -webkit-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+}
+
+.background {
+  background-image: url(cover.jpg);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 650px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: table;
+}
+
+.background > .text-img {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.cards {
+  position: relative;
+  background-color: #2d3436;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cards > .card {
+  margin: 25px;
+  border-radius: 4px;
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  background-color: #444444;
+}
+
+.cards > .card:hover {
+  -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.493);
+          box-shadow: 5px 5px rgba(0, 0, 0, 0.493);
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+.cards > .card > .startup {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.cards > .card > .box {
+  padding: 15px;
+  color: white;
+}
+
+.cards > .card > .box > .titulo {
+  font-size: 1.5rem;
+}
+
+.cards > .card > .box > .descricao {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cards > .card > .box > .button {
+  padding: 15px;
+  width: 100%;
+  background-color: gray;
+  font-size: 1rem;
+  border: none;
+  color: white;
+}
+
+.cards > .card > .box > .button:hover {
+  background-color: #686de0;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+          box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 10px;
+  -webkit-transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: -webkit-box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+.margem {
+  position: relative;
+  background-color: #30336b;
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
